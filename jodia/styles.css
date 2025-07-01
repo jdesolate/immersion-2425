@@ -1,0 +1,486 @@
+#image{
+	position: absolute;
+	top: 125px;
+	left: 125px;
+	width: 300px;
+	z-index: 1;
+}
+.rectangle{ 
+  position: absolute;
+  left: 0px;
+  height: 85px;
+  width: 1366px;
+  background-color: white;
+  border-bottom: 2px solid black;
+}
+.rectangle2{ 
+  position: absolute;
+  left: 0px;
+  top: 375px;
+  height: 274px;
+  width: 1366px;
+  background-color: #555;
+}
+.rectangle3{ 
+  position: absolute;
+  left: 526px;
+  top: 406px;
+  height: 243px;
+  width: 840px;
+  background-color: #334;
+}
+.rectangle4{ 
+  position: absolute;
+  left: 120px;
+  top: 120px;
+  height: 375px;
+  width: 310px;
+  background-color: #555;
+}
+.rectangle5{ 
+  position: absolute;
+  left: 120px;
+  top: 375px;
+  height: 155px;
+  width: 310px;
+  background-color: white;
+}
+.trapezoid{
+	border-bottom: 175px solid #334;
+	border-left: 140px solid transparent;
+	border-right: 0px solid #777;
+	width: 701px;
+	position: absolute;
+	height: 225px;
+	left: 525px;
+}
+.Horizontal-line{
+  border-top: 3px solid white;
+  width: 350px;
+  height: 10px;
+  top: 615px;
+  left: 100px;
+  position: absolute;
+}
+.Vertical-line{
+  border-left: 3px solid white;
+  width: 0px;
+  height: 110px;
+  top: 515px;
+  left: 660px;
+  position: absolute;
+}
+.Vertical-line2{
+  border-left: 3px solid white;
+  width: 0px;
+  height: 25px;
+  top: 300px;
+  left: 800px;
+  position: absolute;
+}
+.Vertical-line3{
+  border-left: 3px solid white;
+  width: 0px;
+  height: 25px;
+  top: 350px;
+  left: 800px;
+  position: absolute;
+}
+.Vertical-line4{
+  border-left: 3px solid white;
+  width: 0px;
+  height: 25px;
+  top: 400px;
+  left: 800px;
+  position: absolute;
+}
+.Vertical-line5{
+  border-left: 3px solid white;
+  width: 0px;
+  height: 25px;
+  top: 450px;
+  left: 800px;
+  position: absolute;
+}
+.Vertical-line6{
+  border-left: 3px solid white;
+  width: 0px;
+  height: 75px;
+  top: 325px;
+  left: 1000px;
+  position: absolute;
+}
+.Vertical-line7{
+  border-left: 3px solid white;
+  width: 0px;
+  height: 55px;
+  top: 425px;
+  left: 1000px;
+  position: absolute;
+}
+.Vertical-line8{
+  border-left: 3px solid white;
+  width: 0px;
+  height: 75px;
+  top: 325px;
+  left: 1160px;
+  position: absolute;
+}
+.Vertical-line9{
+  border-left: 3px solid white;
+  width: 0px;
+  height: 55px;
+  top: 425px;
+  left: 1160px;
+  position: absolute;
+}
+#Title{
+	font-family: 'League Gothic', sans-serif;
+	font-size: 100px;
+	letter-spacing:5px;
+	text-align: center;
+	color: #334;
+	position: absolute;
+	top: 140px;
+	left: 790px;
+}
+#Information{
+	font-family: sans, sans-serif;
+	font-size: 11px;
+	color: white;
+	text-align: left;
+	padding: 10px;
+	width: 500;
+	position: absolute;
+	top: 500px;
+	left: 0px;
+}
+#NameTitle{
+	position: absolute;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 20px;
+	letter-spacing:3px;
+	color: white;
+	top: 300px;
+	left: 755px;
+}
+#NameOverlay{
+	position: absolute;
+	display:flex;
+	flex-direction: column;
+	width: 175px;
+	height: 10px;
+	top: 302px;
+	left: 806px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+#Name{
+	font-family: 'League Gothic', sans-serif;
+	font-size: 15px;
+	letter-spacing:3px;
+	color: white;
+}
+#NameOverlay:hover{
+	opacity: 1;
+}
+#BirthdayTitle{
+	position: absolute;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 20px;
+	letter-spacing:3px;
+	color: white;
+	top: 350px;
+	left: 720px;
+}
+#BirthdayOverlay{
+	position: absolute;
+	display:flex;
+	flex-direction: column;
+	width: 125px;
+	height: 10px;
+	top: 352px;
+	left: 810px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+#Birthday{
+	font-family: 'League Gothic', sans-serif;
+	font-size: 15px;
+	letter-spacing:3px;
+	color: white;
+}
+#BirthdayOverlay:hover{
+	opacity: 1;
+}
+#AgeTitle{
+	position: absolute;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 20px;
+	letter-spacing:3px;
+	color: white;
+	top: 400px;
+	left: 765px;
+}
+#AgeOverlay{
+	position: absolute;
+	display:flex;
+	flex-direction: column;
+	width: 50px;
+	height: 10px;
+	top: 402px;
+	left: 806px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+#Age{
+	font-family: 'League Gothic', sans-serif;
+	font-size: 15px;
+	letter-spacing:3px;
+	color: white;
+}
+#AgeOverlay:hover{
+	opacity: 1;
+}
+#HeightTitle{
+	position: absolute;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 20px;
+	letter-spacing:3px;
+	color: white;
+	top: 450px;
+	left: 740px;
+}
+#HeightOverlay{
+	position: absolute;
+	display:flex;
+	flex-direction: column;
+	width: 50px;
+	height: 10px;
+	top: 452px;
+	left: 806px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+#Height{
+	font-family: 'League Gothic', sans-serif;
+	font-size: 15px;
+	letter-spacing:3px;
+	color: white;
+}
+#HeightOverlay:hover{
+	opacity: 1;
+}
+#FavoritesTitle{
+	position: absolute;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 20px;
+	letter-spacing:3px;
+	color: white;
+	top: 300px;
+	left: 1000px;
+}
+#FavoritesOverlay{
+	position: absolute;
+	display:flex;
+	flex-direction: column;
+	width: 150px;
+	height: 10px;
+	top: 325px;
+	left: 1006px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+#Favorites{
+	font-family: 'League Gothic', sans-serif;
+	font-size: 16px;
+	letter-spacing:3px;
+	color: white;
+	text-decoration: none;
+}
+#FavoritesOverlay:hover{
+	opacity: 1;
+}
+#HobbiesTitle{
+	position: absolute;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 20px;
+	letter-spacing:3px;
+	color: white;
+	top: 400px;
+	left: 1000px;
+}
+#HobbiesOverlay{
+	position: absolute;
+	display:flex;
+	flex-direction: column;
+	width: 150px;
+	height: 10px;
+	top: 425px;
+	left: 1006px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+#Hobbies{
+	font-family: 'League Gothic', sans-serif;
+	font-size: 16px;
+	letter-spacing:3px;
+	color: white;
+	text-decoration: none;
+}
+#HobbiesOverlay:hover{
+	opacity: 1;
+}
+#FactsTitle{
+	position: absolute;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 20px;
+	letter-spacing:3px;
+	color: white;
+	top: 300px;
+	left: 1160px;
+}
+#FactsOverlay{
+	position: absolute;
+	display:flex;
+	flex-direction: column;
+	width: 200px;
+	height: 10px;
+	top: 325px;
+	left: 1166px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+#Facts{
+	font-family: 'League Gothic', sans-serif;
+	font-size: 16px;
+	letter-spacing:3px;
+	color: white;
+	text-decoration: none;
+}
+#FactsOverlay:hover{
+	opacity: 1;
+}
+#WebsitesTitle{
+	position: absolute;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 20px;
+	letter-spacing:3px;
+	color: white;
+	top: 400px;
+	left: 1160px;
+}
+#WebsitesOverlay{
+	position: absolute;
+	display:flex;
+	flex-direction: column;
+	width: 200px;
+	height: 10px;
+	top: 425px;
+	left: 1166px;
+	opacity: 0;
+	transition: opacity 2s;
+}
+#Websites{
+	font-family: 'League Gothic', sans-serif;
+	font-size: 16px;
+	letter-spacing:3px;
+	color: white;
+	text-decoration: none;
+}
+#WebsitesOverlay:hover{
+	opacity: 1;
+}
+.fa {
+	position: absolute;
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+	background: #334;
+	color: white;
+	top: 535px;
+	left: 125px;
+}
+
+.fa-twitter {
+	background: #334;
+	color: white;
+	top: 535px;
+	left: 200px;
+}
+.fa-youtube {
+	background: #334;
+	color: white;
+	top: 535px;
+	left: 275px;
+}
+
+.fa-instagram {
+	background: #334;
+	color: white;
+	top: 535px;
+	left: 350px;
+}
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+li{
+	float:left;
+}
+li a.About{
+	display:block;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 38.5px;
+	color:black;
+	letter-spacing:5px;
+	text-decoration: none;
+	position: absolute;
+	top: 25px;
+	left: 758px;
+}
+li a.Search{
+	display:block;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 38.5px;
+	color: black;
+	letter-spacing:5px;
+	text-decoration: none;
+	position: absolute;
+	top: 25px;
+	left: 950px;
+}
+li a.AnimeList{
+	display:block;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 38.5px;
+	color: black;
+	letter-spacing:5px;
+	text-decoration: none;
+	position: absolute;
+	top: 25px;
+	left: 1145px;
+}
+li a.WebsiteName{
+	display: block;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 53.3px;
+	color: black;
+	letter-spacing: 5px;
+	text-decoration: none;
+	position:absolute;
+	transform: translate(70px,10px)
+}
